@@ -8,7 +8,7 @@ Snake HTML5 Game Made with Canvas
 ```bash
 git clone https://github.com/zuramai/snake-html5.git
 ```
-2. Open snake-html5/index.html
+2. Open `snake-html5/index.html`
 
 ## Snake.js Example Usage
 ```javascript
