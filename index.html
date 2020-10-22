@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phytons</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="instructions">
+            <header>
+                <img src="images/icon.png" >
+                <h1>PHYTONS</h1>
+            </header>
+            <div class="card">
+                <div class="card-header">
+                    Instructions
+                </div>
+                <div class="card-body">
+                    <ol>
+                        <li>Read the instructions.</li>
+                        <li>Input your name.</li>
+                        <li>Click play button</li>
+                    </ol>
+                    <p>If you want to rewind:</p>
+                    <ol>
+                        <li>Click rewind button.</li>
+                        <li>Select how many second you want to rewind by slide the rangeslider.</li>
+                        <li>Click rewind to set the rewind</li>
+                        <li>Also you can click cancel to cancel the rewind</li>
+                    </ol>
+                </div>
+                <div class="play">
+                    <input type="text" name="" id="name" placeholder="Your name">
+                    <button class="btn btn-block" id='btn-start' disabled>Start Game</button>
+                </div>
+            </div>
+        </div>
+        <div class="playground" id="playground">
+            <div class="scoreboard">
+                <div class="score">
+                    Score: <span id="score">0</span>
+                </div>
+                <div class="logo">
+                    <img src="images/icon.png" alt="" srcset="">
+                    <h1>PHYTONS</h1>
+                </div>
+                <div class="timer">Time: <span id="timer">00:00:12</span></div>
+            </div>
+            <div>
+                <canvas id="canvas" tabindex="1"></canvas>
+            </div>
+            <div class="options">
+                <div class='mt-5'>
+                    <input type="range" name="" id="rewindRange" min="0" max="5" step="1" value="5">
+                </div>
+                <div class='buttons'>
+                    <button class="btn btn-lg btn-cancel" id="btn-cancel">Cancel</button>
+                    <button class="btn btn-lg btn-rewind" id="btn-rewind">Rewind</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/Snake.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
