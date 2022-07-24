@@ -47,7 +47,7 @@ let snake = new Snake({
 | snakeColor | String | Color of the snake. Could be Hex, RGB, RGBA, or [linear-gradient](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient) |
 | snakeBorderColor | String | Border color of the snake. Could be Hex, RGB, RGBA, or [linear-gradient](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient) |
 | foodColor | String | Color of the snake's food. Could be Hex, RGB, RGBA, or [linear-gradient](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient) |
-| moveSpeed | Number | Snake auto-move to next block every move (in milliseconds) |
+| moveSpeed | Number | Snake move speed (in milliseconds) |
 | generateFoodEvery | Number | The interval for generating food every time (in milliseconds) |
 | timerEl | Element | Element to display the play time elapsed |
 | scoreEl | Element | Element to display the player's score |
